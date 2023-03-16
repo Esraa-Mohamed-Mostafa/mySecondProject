@@ -1,0 +1,17 @@
+<div class="main">
+    <div><a routerLink="/registraion"> Home </a></div>
+    <div><a routerLink="/todos"> Title </a></div>
+    <div><a routerLink="/userid">UserId</a></div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" style="color:black ;font-size: 23px;    font-weight: bold">
+            {{table.name}}
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"
+            style="color:black ;font-size: 23px;    font-weight: bold">
+            <a class="dropdown-item" routerLink="/profile">my profile</a>
+            <a class="dropdown-item" (click)="logut()"> log out</a>
+        </div>
+    </div>
+</div>

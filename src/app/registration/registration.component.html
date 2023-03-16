@@ -1,0 +1,18 @@
+<div class="custom-container">
+    <form novalidate class="one">
+        <h2>Login</h2>
+        <div id="two">
+            <label>Username </label>
+            <input type="text" #u1>
+        </div>
+        <div id="three">
+            <label>Password </label>
+            <input type="password" #p2>
+        </div>
+        <div id="four">Forget password?</div>
+        <input type="submit" value="sign in" class="signIn" (click)="check(u1.value,p2.value)">
+        <a routerLink="/signup" id="five"> or Sign up
+
+        </a>
+    </form>
+</div>

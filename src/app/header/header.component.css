@@ -1,0 +1,29 @@
+* {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+.main {
+    display: flex;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: grey;
+    border: none;
+    font-weight: bold;
+    padding: 12px;
+
+}
+
+div div {
+    width: 400px;
+    cursor: pointer;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+div div:hover {
+    background-color: rgb(163, 81, 81);
+}

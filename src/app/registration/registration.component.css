@@ -1,0 +1,79 @@
+.custom-container {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgb(199, 61, 146), rgb(100, 146, 230));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+.one {
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    border-radius: 30px;
+    border: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+label {
+    padding: 5px;
+    margin: 5px;
+}
+
+input {
+    border-width: 0 0 1px 0;
+    border-color: black;
+    width: 300px;
+}
+
+#two {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+#three {
+    font-size: 16px;
+}
+
+#four {
+    position: absolute;
+    right: 8%;
+    bottom: 38%;
+}
+
+#five {
+    position: absolute;
+    left: 40%;
+    bottom: 10%;
+    cursor: pointer;
+}
+
+.signIn {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(rgb(199, 61, 146), rgb(100, 146, 230));
+    position: absolute;
+    left: 18%;
+    bottom: 20%;
+    border: none;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}

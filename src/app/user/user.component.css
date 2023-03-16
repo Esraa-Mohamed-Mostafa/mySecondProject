@@ -1,0 +1,44 @@
+* {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+
+.main {
+    display: flex;
+    column-gap: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-style: italic;
+    color: brown;
+    font-weight: bold;
+}
+
+.first {
+    background-color: rgb(63, 119, 136);
+    border-radius: 10px;
+}
+
+.second {
+    background-color: rgb(194, 91, 185);
+    border-radius: 10px;
+
+}
+
+.square {
+
+    background: #91cad1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.squaree {
+
+    background: #f397df;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

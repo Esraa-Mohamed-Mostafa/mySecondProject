@@ -1,0 +1,66 @@
+.pro {
+    height: 150vh;
+    width: 100vw;
+    background: linear-gradient(rgb(199, 61, 146), rgb(100, 146, 230));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+.one {
+    background-color: white;
+    width: 400px;
+    height: 750px;
+    border-radius: 30px;
+    border: 20px;
+    padding: 20px;
+    position: relative;
+
+}
+
+
+
+h2 {
+    font-weight: bold;
+    position: absolute;
+    left: 15%;
+    margin-top: 0.5px;
+
+}
+
+label {
+    padding: 5px;
+    margin: 5px;
+
+}
+
+
+
+.two {
+    margin-top: 20px;
+}
+
+.sign {
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(rgb(199, 61, 146), rgb(100, 146, 230));
+    border: none;
+    height: 30px;
+    width: 130px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    position: absolute;
+    left: 40%;
+    bottom: 2%;
+}

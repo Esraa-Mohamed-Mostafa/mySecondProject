@@ -1,0 +1,16 @@
+<app-header></app-header>
+<div class="main">
+    <div class="first">
+        <h2>Completed</h2>
+        <div *ngFor="let completed of completedToDo" class="square" (click)="open(completed.id)">
+            {{completed.title}}
+        </div>
+    </div>
+    <div class="second">
+        <h2>Not Completed</h2>
+        <div *ngFor="let notcompleted of notCompleted" class="squaree" (click)="open(notcompleted.id)">
+            {{notcompleted.title}}
+        </div>
+    </div>
+</div>
+<div class="square"></div>
